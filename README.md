@@ -1,10 +1,19 @@
 # X-Delete-UnLike-script
 Twitter (Now X) Script for Removing the Tweets and Likes
 
-FOR DELETING TWEETS
+***FOR DELETING TWEETS***
+
+Navigate to your profile page: https://www.x.com/yourusername
+
+Open the browser's console:
+
+    Linux, Windows, ChromeOS: Ctrl + Shift + J
+    macOS: Cmd + Option + J
+
+Copy the entirety of the script below and paste it into the console, press Enter, then click the Start button.
 
 ```
-// go to https://twitter.com/your-username, and enter the following into the developer console:
+
 
 (function () {
   var delTweets = function () {
@@ -52,19 +61,19 @@ FOR DELETING TWEETS
   delTweets();
 })();
 ```
-FOR REMOVING LIKES
+***FOR REMOVING LIKES***
 
 
 
 
-Navigate to your profile's Likes page: https://www.x.com/yourusername/likes.
+Navigate to your profile's Likes page: https://www.x.com/yourusername/likes
 
 Open the browser's console:
 
     Linux, Windows, ChromeOS: Ctrl + Shift + J
     macOS: Cmd + Option + J
 
-Copy the entirety of RapidUnlike and paste it into the console, press Enter, then click the Start button.
+Copy the entirety of the script below and paste it into the console, press Enter, then click the Start button.
 
 ```
 // Configuration settings
@@ -678,11 +687,7 @@ async function animateStatusUpdate(
 startBtn.addEventListener("click", async () => {
   console.clear();
   console.log(
-`
-     RapidUnlike
-       v1.0.0
-https://github.com/ajwdd           
-`
+
   );
   if (isRunning) return;
   shouldStop = false;
@@ -794,6 +799,4 @@ updateButtonStates();
   else if (!statusText.textContent.trim())
     await setStatusTextContainerVisible(false);
 })();
-
-
 ```
