@@ -10,7 +10,7 @@ Open the browser's console:
     Linux, Windows, ChromeOS: Ctrl + Shift + J
     macOS: Cmd + Option + J
 
-Copy the entirety of the script below and paste it into the console, press Enter, then click the Start button.
+Copy the entirety of the script below and paste it into the console, press Enter.
 
 ```
 
@@ -73,7 +73,7 @@ Open the browser's console:
     Linux, Windows, ChromeOS: Ctrl + Shift + J
     macOS: Cmd + Option + J
 
-Copy the entirety of the script below and paste it into the console, press Enter, then click the Start button.
+Copy the entirety of the script below and paste it into the console, press Enter, then click the Start button in the Top Right Corner.
 
 ```
 // Configuration settings
